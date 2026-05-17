@@ -1,8 +1,53 @@
 * { box-sizing: border-box;}
-body { background-image: URL(../img/fondo.png) ;}
+body { background-image: URL(../img/fondo.png) ;
+    font-family: 'Abel', sans-serif;
+}
 .abel-regular {
   font-family: "Abel", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+div {
+    background-color: #b7bdec;
+   width: 80%;
+   max-width: 960px;
+   margin: 0 auto;
+}
+ header, footer{
+    background-color: aliceblue;
+    padding: 1 em;
+    text-align: center;
+}
+main { padding: 1em ;
+background-color: rgb(132, 169, 201);
+}
+nav ul {
+    list-style-type: none ;
+    
+}
+nav li{ 
+        display : inline-block
+}
+ 
+nav a { font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+nav a:link {
+	
+	color: #042fa7;
+}
+nav a:visited {
+	
+	color: #000;
+}
+nav a:hover {
 
+	color: #63a1f1;
+}
+nav a:active {
+	
+	color: #FFF;
+}
