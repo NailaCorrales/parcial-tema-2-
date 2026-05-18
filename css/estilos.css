@@ -7,7 +7,7 @@ body { background-image: URL(../img/fondo.png) ;
   font-weight: 400;
   font-style: normal;
 }
-div {
+#contenedor {
     background-color: #b7bdec;
    width: 80%;
    max-width: 960px;
